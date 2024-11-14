@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+  <Resource 
+     name="jdbc/animalhp"
+     auth="Container"
+     type="javax.sql.DataSource"
+     username="admin7"
+     password="1234"
+     url="jdbc:mysql://39.120.113.50:3306/animalhp?useUnicode=true&amp;characterEncoding=utf-8"
+     driverClassName="com.mysql.cj.jdbc.Driver"
+     factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+     maxActive="200"
+     maxIdle="20"   
+     removeAbandoned="true"  
+  />
+</Context> 
